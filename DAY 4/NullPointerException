@@ -4,17 +4,17 @@ public void display()
 {
  try
 {
-  String s="java";
-  System.out.println("string length is"+Integer.parseInt(s));
+  String s=null;
+  System.out.println("string length is"+ s.length());
 }
-catch(NumberFormatException e)
+catch(NullPointerException e)
 {
  System.out.println("me raised exception");
 }
  System.out.println("program ends");
 }
-}	
-public class Ac
+}
+public class Ad
 {
 public static void main(String a[])
 {
